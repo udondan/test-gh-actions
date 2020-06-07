@@ -1,1 +1,1 @@
-Hello. this is test-gh-action@0.0.0
+Hello. this is test-gh-action@1.0.1
