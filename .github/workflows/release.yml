@@ -45,4 +45,7 @@ jobs:
           fetch-depth: 1
 
       - name: Create tag
-        run: make release
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          make release
